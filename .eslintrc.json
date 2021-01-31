@@ -4,6 +4,8 @@
     "es2021": true
   },
   "extends": [
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
     "airbnb"
@@ -17,11 +19,13 @@
     "sourceType": "module"
   },
   "plugins": [
+    "prettier",
     "react",
     "react-hooks",
     "@typescript-eslint"
   ],
   "rules": {
+    "prettier/prettier": "error",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-filename-extension": [
@@ -43,7 +47,7 @@
         "ts": "never",
         "tsx": "never"
       }
-   ]
+    ]
   },
   "settings": {
     "import/resolver": {
