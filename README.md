@@ -1,46 +1,123 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img alt="Logo" src="logo.png" width="200px">
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+  Aplicação em ReactJS para o desafio da Proveu
+</h3>
 
-## Available Scripts
+<p align="center">Calculadora de jornada de trabalho!</p>
 
-In the project directory, you can run:
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/DiegoJunges/desafio-proveu-frontend?color=%23FF9000">
 
-### `yarn start`
+  <a href="https://www.linkedin.com/in/diego-junges/" target="_blank" rel="noopener noreferrer">
+    <img alt="Made by" src="https://img.shields.io/badge/made%20by-Diego%20Junges-%23FF9000">
+  </a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/DiegoJunges/desafio-proveu-frontend?color=%23FF9000">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  <a href="https://github.com/DiegoJunges/gobarber-web/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/DiegoJunges/desafio-proveu-frontend?color=%23FF9000">
+  </a>
 
-### `yarn test`
+  <a href="https://github.com/DiegoJunges/gobarber-web/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/DiegoJunges/desafio-proveu-frontend?color=%23FF9000">
+  </a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <img alt="GitHub" src="https://img.shields.io/github/license/DiegoJunges/desafio-proveu-frontend?color=%23FF9000">
+</p>
 
-### `yarn build`
+<p align="center">
+  <a href="#%EF%B8%8F-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+</br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 💇🏻‍♂️ About the project
 
-### `yarn eject`
+Aplicação frontend para o desafio da Proveu
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Para ver a **api**, clique aqui: [Desafio Proveo Rest API](https://github.com/DiegoJunges/desafio-proveu-backend)</br>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🚀 Tecnologias
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Technologies that I used to develop this web client
 
-## Learn More
+- [ReactJS](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React Router DOM](https://reacttraining.com/react-router/)
+- [React Icons](https://react-icons.netlify.com/#/)
+- [Styled Components](https://styled-components.com/)
+- [Polished](https://github.com/styled-components/polished)
+- [Axios](https://github.com/axios/axios)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [EditorConfig](https://editorconfig.org/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 💻 Getting started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Requirements
+
+- Tenha o backend desta aplicação [API](https://github.com/DiegoJunges/desafio-proveu-backend) rodando.
+
+**Clone o projeto e acesse a pasta**
+
+```bash
+$ git clone https://github.com/DiegoJunges/desafio-proveu-frontend.git && cd desafio-proveu-frontend
+```
+
+**Siga os passos a seguir**
+
+```bash
+# Instale as dependencias
+$ yarn
+
+# Tenha certeza que o arquivo: 'src/services/apiClient.ts' tenha o IP da sua API
+
+# Inicie o client
+$ yarn start
+```
+
+## 🤔 Como contribuir
+
+**Faça um fork deste repositório**
+
+```bash
+# Fork usando a linha de comando oficial do GitHub
+# Se você não tem o GitHub CLI, use o website para fazer isso.
+
+$ gh repo fork DiegoJunges/desafio-proveu-frontend
+```
+
+**Follow the steps below**
+
+```bash
+# Clone seu fork
+$ git clone your-fork-url && cd desafio-proveu
+
+# Crie uma branch com sua 'feature'
+$ git checkout -b my-feature
+
+# Façã um commit com suas mudanças
+$ git commit -m 'feat: My new feature'
+
+# Envie o código para sua branch remota
+$ git push origin my-feature
+```
+
+Depois que seu PR for 'merged', você pode deletar sua branch
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Made with 💜 by Diego Junges 👋 [See my linkedin](https://www.linkedin.com/in/diego-junges/)
