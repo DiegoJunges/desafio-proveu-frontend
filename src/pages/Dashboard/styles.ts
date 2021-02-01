@@ -16,6 +16,8 @@ export const Title = styled.h1`
   margin-top: 80px;
 `;
 
+// adding props(FormProps) to execute error handler on the component
+
 export const Form = styled.form<FormProps>`
   margin-top: 40px;
   max-width: 760px;

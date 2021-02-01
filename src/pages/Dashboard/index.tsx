@@ -20,6 +20,8 @@ const Dashboard: React.FC = () => {
   ): Promise<void> {
     event.preventDefault();
 
+    // some error handling
+
     if (!newInitialRegister) {
       setInputError('Digite a data/hora inicial da jornada de trabalho');
       return;
@@ -29,6 +31,8 @@ const Dashboard: React.FC = () => {
       setInputError('Digite a data/hora final da jornada de trabalho');
       return;
     }
+
+    // HTTP request to API with error handler
 
     try {
       const response = await api.post('register', {
